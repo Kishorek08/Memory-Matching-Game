@@ -1,0 +1,33 @@
+h1{
+    color: antiquewhite;
+    background-color: black;
+    font-style: italic;
+    font-weight: bold;
+    border: 3px solid palevioletred;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.board {
+  width: 420px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background: #a8d418;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.card.flipped {
+  background: #21e9f3;
+}
